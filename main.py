@@ -49,7 +49,7 @@ def start_training(char_name, char_class):
             'Введи одну из команд: attack — чтобы атаковать противника, '
             'defence — чтобы блокировать атаку противника или special — '
             'чтобы использовать свою суперсилу.'
-            )
+        )
     cmd = None
     while cmd != 'skip':
         cmd = input('Введи команду: ')
